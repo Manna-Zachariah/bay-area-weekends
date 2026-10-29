@@ -1,0 +1,9 @@
+.main-area {
+  display: block;
+  flex: 1;
+
+  padding: 1rem;
+
+  background-color: var(--page-bg-color);
+  color: var(--page-text-color);
+}

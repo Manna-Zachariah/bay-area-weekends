@@ -1,0 +1,36 @@
+.header {
+  display: grid;
+  gap: 1rem;
+
+  padding: 1rem;
+  border-bottom: 0.125rem solid var(--panel-border-color);
+
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+}
+
+.header__branding {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.header__eyebrow,
+.header__traveler {
+  margin: 0;
+}
+
+.header__eyebrow {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.header__traveler {
+  font-size: 1rem;
+}
+
+@media (min-width: 50rem) {
+  .header {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+}

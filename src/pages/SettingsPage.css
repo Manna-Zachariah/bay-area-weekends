@@ -1,0 +1,64 @@
+.settings-page {
+  display: grid;
+  gap: 1.5rem;
+
+  padding: 1rem;
+
+  background-color: var(--page-bg-color);
+  color: var(--page-text-color);
+}
+
+.settings-page__hero,
+.settings-page__panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.settings-page__title,
+.settings-page__panel-title,
+.settings-page__intro,
+.settings-page__panel-text {
+  margin: 0;
+}
+
+.settings-page__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.settings-page__panel-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.settings-page__intro,
+.settings-page__panel-text {
+  font-size: 1rem;
+}
+
+.settings-page__panel {
+  padding: 1rem;
+  border: 0.125rem solid var(--panel-border-color);
+  border-radius: 0.5rem;
+
+  background-color: var(--panel-bg-color);
+}
+
+.settings-page__button {
+  display: inline-block;
+  justify-self: start;
+
+  padding: 0.5rem 0.75rem;
+  border: 0.125rem solid var(--button-bg-color);
+  border-radius: 0.5rem;
+
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+
+  font-size: 1rem;
+}
+
+.settings-page__button:hover,
+.settings-page__button:focus-visible {
+  background-color: var(--button-hover-bg-color);
+}

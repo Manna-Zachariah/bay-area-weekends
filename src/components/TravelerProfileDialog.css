@@ -1,0 +1,115 @@
+.traveler-profile-dialog {
+  display: grid;
+  gap: 1rem;
+}
+
+.traveler-profile-dialog__open-button {
+  display: inline-block;
+  justify-self: start;
+
+  padding: 0.5rem 0.75rem;
+  border: 0.125rem solid var(--button-bg-color);
+  border-radius: 0.5rem;
+
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+
+  font-size: 1rem;
+}
+
+.traveler-profile-dialog__open-button:hover,
+.traveler-profile-dialog__open-button:focus-visible {
+  background-color: var(--button-hover-bg-color);
+}
+
+.traveler-profile-dialog__modal {
+  padding: 1rem;
+  border: 0.125rem solid var(--panel-border-color);
+  border-radius: 0.5rem;
+  width: min(100%, 32rem);
+
+  background-color: var(--panel-bg-color);
+  color: var(--page-text-color);
+}
+
+.traveler-profile-dialog__form {
+  display: grid;
+  gap: 1rem;
+}
+
+.traveler-profile-dialog__title {
+  margin: 0;
+
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.traveler-profile-dialog__label {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.traveler-profile-dialog__label-text {
+  margin: 0;
+
+  font-size: 1rem;
+}
+
+.traveler-profile-dialog__input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 0.125rem solid var(--panel-border-color);
+  border-radius: 0.5rem;
+
+  background-color: var(--form-field-bg-color);
+  color: var(--form-field-text-color);
+
+  font-size: 1rem;
+}
+
+.traveler-profile-dialog__error-message {
+  padding: 0.75rem;
+  border: 0.125rem solid var(--error-text-color);
+  border-radius: 0.5rem;
+
+  background-color: var(--error-bg-color);
+  color: var(--error-text-color);
+
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.traveler-profile-dialog__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.traveler-profile-dialog__button {
+  display: inline-block;
+
+  padding: 0.5rem 0.75rem;
+  border: 0.125rem solid var(--button-bg-color);
+  border-radius: 0.5rem;
+
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+
+  font-size: 1rem;
+}
+
+.traveler-profile-dialog__button:hover,
+.traveler-profile-dialog__button:focus-visible {
+  background-color: var(--button-hover-bg-color);
+}
+
+.traveler-profile-dialog__button--secondary {
+  border-color: var(--panel-border-color);
+
+  background-color: transparent;
+  color: var(--page-text-color);
+}
+
+.traveler-profile-dialog__modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}

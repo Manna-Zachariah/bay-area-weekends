@@ -1,0 +1,49 @@
+.faq-page {
+  display: grid;
+  gap: 1.5rem;
+
+  padding: 1rem;
+
+  background-color: var(--page-bg-color);
+  color: var(--page-text-color);
+}
+
+.faq-page__hero,
+.faq-page__questions {
+  display: grid;
+  gap: 1rem;
+}
+
+.faq-page__title,
+.faq-page__section-title,
+.faq-page__intro {
+  margin: 0;
+}
+
+.faq-page__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.faq-page__section-title {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.faq-page__intro {
+  font-size: 1rem;
+}
+
+.faq-page__list {
+  display: grid;
+  gap: 1rem;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.faq-page__item {
+  margin: 0;
+}

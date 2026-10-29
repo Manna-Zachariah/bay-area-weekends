@@ -1,0 +1,16 @@
+.skiplink {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 0.5rem 1rem;
+
+  background-color: var(--accent-color);
+  color: var(--page-text-color);
+
+  transform: translateY(-100%);
+}
+
+.skiplink:focus {
+  transform: translateY(0);
+}

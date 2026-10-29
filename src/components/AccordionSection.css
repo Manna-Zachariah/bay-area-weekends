@@ -1,0 +1,53 @@
+.accordion-section {
+  display: block;
+
+  border: 0.125rem solid var(--panel-border-color);
+  border-radius: 0.5rem;
+
+  background-color: var(--panel-bg-color);
+}
+
+.accordion-section__heading {
+  margin: 0;
+}
+
+.accordion-section__button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+
+  background-color: transparent;
+  color: var(--page-text-color);
+
+  text-align: left;
+  font-size: 1rem;
+}
+
+.accordion-section__button:hover,
+.accordion-section__button:focus-visible {
+  background-color: var(--nav-link-hover-bg-color);
+}
+
+.accordion-section__icon {
+  font-size: 1rem;
+}
+
+.accordion-section__title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.accordion-section__content {
+  padding: 0.75rem;
+  border-top: 0.125rem solid var(--panel-border-color);
+}
+
+.accordion-section__text {
+  margin: 0;
+
+  font-size: 1rem;
+}

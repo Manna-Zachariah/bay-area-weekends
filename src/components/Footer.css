@@ -1,0 +1,15 @@
+.footer {
+  display: block;
+
+  padding: 1rem;
+  border-top: 0.125rem solid var(--panel-border-color);
+
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+}
+
+.footer__text {
+  margin: 0 0 0.5rem 0;
+
+  font-size: 1rem;
+}
